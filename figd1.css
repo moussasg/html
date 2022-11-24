@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  height: 4vh;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  display: flex;
+  justify-content: center;
+
+  gap: 15%;
+  list-style: none;
+}
+section.sec1 {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+}
+.up {
+  display: flex;
+  gap: 100px;
+}
+.pres {
+  display: flex;
+  flex-direction: column;
+}
+h1#sas {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.img {
+  display: flex;
+}
+img#f {
+  display: flex;
+}
+section.sec2 {
+  background-color: rgb(0, 191, 255);
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+}
+.ktiba {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.srv {
+  display: flex;
+  justify-content: space-around;
+}
+h1#c {
+  text-align: center;
+}
+section.sec3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+div.k {
+  background-color: yellow;
+}
+div.imge {
+  display: flex;
+}
+div.form {
+  display: flex;
+}
+form.form {
+  display: flex;
+  flex-direction: column;
+}
+input#col {
+  background-color: gray;
+}
+button#but {
+  display: flex;
+  justify-content: center;
+}
